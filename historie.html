@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="index.html">Grafické karty</a>
+            <div class="d-sm-none">
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                    aria-controls="offcanvasTop"><img src="hamburger.png" alt="bruger" width="32px"
+                        height="32px"></button>
+
+                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"
+                    aria-labelledby="offcanvasTopLabel">
+                    <div class="offcanvas-header" style="background-color: #201a2e;">
+                        <h5 class="offcanvas-title" style="color:white" id="offcanvasTopLabel">Grafické karty</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body" style="background-color: #201a2e;">
+
+                        <div class="navbar-nav flex-column">
+                            <a class="nav-link text-light" href="historie.html">Historie</a>
+                            <a class="nav-link text-light" href="vystupy.html">Výstupy</a>
+                            <a class="nav-link text-light" href="vyrobci.html">Výrobci</a>
+                            <a class="nav-link text-light" href="gpu.html">GPU</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link text-light" href="historie.html">Historie</a>
+                    <a class="nav-link text-light" href="vystupy.html">Výstupy</a>
+                    <a class="nav-link text-light" href="vyrobci.html">Výrobci</a>
+                    <a class="nav-link text-light" href="gpu.html">GPU</a>
+                </div>
+            </div>
+
+    </nav>
+    <article>
+        <div class="container ">
+            <div class="d-flex flex-row" style="display: flex; flex-direction: row; gap: 15px;">
+                <div class="box w-25 me-3"
+                    style="background-color: #c7a454; outline: 3px #caaa5e dashed; outline-offset: 7px; border-radius: 20px; border: none; transform: scale(0.92);">
+                    <ul class="nav nav-pills mb-0 flex-column" style="font-size: 20px">
+                        <li class="nav-item"><a class="nav-link text-black" href="#nadpis1">Začátky</a></li>
+                        <li class="nav-item"><a class="nav-link text-black" href="#nadpis2">80.léta</a></li>
+                        <li class="nav-item"><a class="nav-link text-black" href="#nadpis3">90.léta</a></li>
+                        <li class="nav-item"><a class="nav-link text-black" href="#nadpis4">Přítomnost</a></li>
+                    </ul>
+                </div>
+                <div class="box2 w-75"
+                    style="background-color: #233239; padding: 20px; border-radius: 30px; border: 5px solid #182227; border-bottom: 15px solid #182227;">
+                    <h1 id="nadpis1">Začátky</h1>
+                    <hr>
+                    <p>Historie grafických karet sahá až do 70. let 20. století, kdy začala éra osobních počítačů. První
+                        grafické karty byly jednoduché zařízení nazvané videoadaptéry, které byly schopné generovat
+                        jednoduché textové a grafické zobrazení na monitoru. Tyto karty používaly paměť pro ukládání
+                        znaků a barev a byly ovládány prostřednictvím příkazů z operačního systému.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="display: flex; flex-direction: row; gap: 30px; margin-top: 40px;">
+            <div class="div1"
+                style="background-color: #233239; width: fit-content; padding: 20px; border-radius: 30px; border: 5px solid #182227; border-bottom: 15px solid #182227;">
+                <h1 id="nadpis2">80. léta</h1>
+                <hr>
+                <div class="d-flex flex-row">
+                    <p style="width:80% ;">S rozvojem počítačových her a náročnějších grafických aplikací se začaly
+                        vyvíjet pokročilejší grafické karty. V 80. letech se objevily první karty s grafickými procesory
+                        (GPU), které měly schopnost zpracovávat a vykreslovat složitější grafiku a 2D obrázky. Tyto
+                        karty využívaly speciální grafické akcelerátory, které snižovaly zátěž procesoru tím, že se
+                        staraly o výpočet grafických operací.</p>
+                </div>
+            </div>
+            <div class="card "
+                style="width: 20%; height: auto;font-size: 18px; background-color: #c27670; border-radius: 50px; border: 5px solid #92544e; border-bottom: 15px solid #92544e;">
+                <img src="Bez názvu.png" class="card-img-top" alt="..." id="img1" style="transform: scale(1);">
+                <div class="card-body">
+                    <p class="card-text"
+                        style="background-color: #b16862; padding: 5px; border-radius: 10px; margin-top: -20px;">
+                        <a href="https://en.wikipedia.org/wiki/File:IBM_Color_Graphics_Adapter.jpg">Obrázek</a> <br> <span>
+                            CGA(Color Graphics Adapter) </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="display: flex; flex-direction: row; gap: 30px; margin-top: 40px;">
+            <div class="card "
+                style="width: 20%; height: auto;font-size: 18px; background-color: #c27670; border-radius: 50px; border: 5px solid #92544e; border-bottom: 15px solid #92544e;">
+                <img src="grafika90s.png" class="card-img-top" alt="..." id="img2"
+                    style="transform: scale(1);">
+                <div class="card-body">
+                    <p class="card-text"
+                        style="background-color: #b16862; padding: 5px; border-radius: 10px; margin-top: -20px;">
+                        <a
+                            href="https://i0.wp.com/www.neweggbusiness.com/smartbuyer/wp-content/uploads/nvidia_nv1.jpg?w=700&ssl=1 ">Obrázek</a>
+                        <br> <span>
+                            První Nvidia grafiky <span style="font-size: 20px;">(Nvidia NV1)</span></span>
+                    </p>
+                </div>
+            </div>
+            <div class="div1"
+                style="background-color: #233239; width: fit-content; padding: 20px; border-radius: 30px; border: 5px solid #182227; border-bottom: 15px solid #182227;">
+                <h1 id="nadpis3">90. léta</h1>
+                <hr>
+                <div class="d-flex flex-row">
+                    <p style="width:80% ;">S příchodem 90. let a nástupem 3D grafiky se grafické karty začaly stávat
+                        nezbytným prvkem pro herní průmysl. Firmy jako NVIDIA a ATI (dnes součást AMD) představily první
+                        3D akcelerátory, které umožňovaly výpočet a vykreslování 3D objektů a efektů v reálném čase.
+                        Tyto karty využívaly speciální algoritmy, jako je texturování, stínování a zobrazení wireframe
+                        modelů, aby dosáhly plynulého a realistického zobrazení.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="display: flex; flex-direction: row; gap: 30px; margin-top: 40px;">
+            <div class="div1"
+                style="background-color: #233239; width: fit-content; padding: 20px; border-radius: 30px; border: 5px solid #182227; border-bottom: 15px solid #182227;">
+                <h1 id="nadpis4">Přítomnost</h1>
+                <hr>
+                <div class="d-flex flex-row">
+                    <p style="width:80% ;">V průběhu dalších let se grafické karty stále zdokonalovaly a získávaly vyšší
+                        výpočetní výkon. Byly přidávány nové funkce, jako je hardwarová podpora pro video dekódování,
+                        rozšířená podpora pro více monitorů, vykreslování ve vysokém rozlišení a podpora pokročilých
+                        grafických technik, včetně ray tracingu. S nástupem virtuální reality se objevily také speciální
+                        VR-ready grafické karty, které umožňují plynulé a realistické zobrazení ve virtuálním prostředí.
+                        Dnes jsou grafické karty důležitým prvkem pro počítačové hry, profesionální grafické a designové
+                        aplikace, vědecký výzkum a další náročné úlohy.
+                    </p>
+                </div>
+            </div>
+            <div class="card "
+                style="width: 20%; height: auto;font-size: 18px; background-color: #c27670; border-radius: 50px; border: 5px solid #92544e; border-bottom: 15px solid #92544e;">
+                <img src="titan.png" class="card-img-top" alt="..." id="img1" style="transform: scale(1);">
+                <div class="card-body">
+                    <p class="card-text"
+                        style="background-color: #b16862; padding: 5px; border-radius: 10px; margin-top: -20px;">
+                        <a href="https://w7.pngwing.com/pngs/64/953/png-transparent-graphics-cards-video-adapters-nvidia-geforce-gtx-titan-black-evga-corporation-gddr5-sdram-nvidia-electronics-electronic-device-geforce.png">Obrázek</a> <br> <span>
+                           Moderní grafická karta <span style="font-size: 20px;">(Nvidia TITAN)</span></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </article>
+
+    <footer>
+        <hr>
+        <p class="text-center text-white">Šimon Šoltés 1.Bi</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

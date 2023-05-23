@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="index.html">Grafické karty</a>
+            <div class="d-sm-none">
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                    aria-controls="offcanvasTop"><img src="hamburger.png" alt="bruger" width="32px"
+                        height="32px"></button>
+
+                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"
+                    aria-labelledby="offcanvasTopLabel">
+                    <div class="offcanvas-header" style="background-color: #201a2e;">
+                        <h5 class="offcanvas-title" style="color:white" id="offcanvasTopLabel">Grafické karty</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body" style="background-color: #201a2e;">
+
+                        <div class="navbar-nav flex-column">
+                            <a class="nav-link text-light" href="historie.html">Historie</a>
+                            <a class="nav-link text-light" href="vystupy.html">Výstupy</a>
+                            <a class="nav-link text-light" href="vyrobci.html">Výrobci</a>
+                            <a class="nav-link text-light" href="gpu.html">GPU</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link text-light" href="historie.html">Historie</a>
+                    <a class="nav-link text-light" href="vystupy.html">Výstupy</a>
+                    <a class="nav-link text-light" href="vyrobci.html">Výrobci</a>
+                    <a class="nav-link text-light" href="gpu.html">GPU</a>
+                </div>
+            </div>
+
+    </nav>
+    <article>
+        <div class="container ">
+            <div class="d-flex flex-row" style="display: flex; flex-direction: row; gap: 15px;">
+                <div class="box w-25 me-3"
+                    style="background-color: #c7a454; outline: 3px #caaa5e dashed; outline-offset: 7px; border-radius: 20px; border: none; transform: scale(0.92);">
+                    <ul class="nav nav-pills mb-0 flex-column" style="font-size: 20px;">
+                        <li class="nav-item"><a class="nav-link text-black" href="#nadpis1">HDMI</a></li>
+                        <li class="nav-item"><a class="nav-link text-black" href="#nadpis2">Display prot</a></li>
+                        <li class="nav-item"><a class="nav-link text-black" href="#nadpis3">VGA</a></li>
+                        <li class="nav-item"><a class="nav-link text-black" href="#nadpis4">DVI</a></li>
+                    </ul>
+                </div>
+                <div class="box2 w-75"
+                    style="background-color: #233239; padding: 20px; border-radius: 30px; border: 5px solid #182227; border-bottom: 15px solid #182227;">
+                    <h1 id="nadpis1">HDMI</h1>
+                    <hr>
+                    <p>HDMI (High-Definition Multimedia Interface) je digitální rozhraní, které se často používá pro
+                        přenos audiovizuálního signálu mezi zařízeními, jako jsou televize, monitory, herní konzole,
+                        počítače a další. HDMI podporuje vysoké rozlišení obrazu a kvalitní zvukový přenos. Toto
+                        rozhraní je jednoduché a praktické, umožňuje jednoduché propojení zařízení pomocí jednoho kabelu
+                        a poskytuje širokou kompatibilitu s různými zařízeními.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="display: flex; flex-direction: row; gap: 30px; margin-top: 40px;">
+            <div class="div1"
+                style="background-color: #233239; width: fit-content; padding: 20px; border-radius: 30px; border: 5px solid #182227; border-bottom: 15px solid #182227;">
+                <h1 id="nadpis2">Display port</h1>
+                <hr>
+                <div class="d-flex flex-row">
+                    <p style="width:80% ;">DisplayPort je také digitální rozhraní, které se používá pro přenos obrazu a
+                        zvuku mezi počítačem a monitorovým zařízením. DisplayPort je navržen tak, aby byl vysoce výkonný
+                        a podporoval vysoké rozlišení obrazu a aktualizační frekvence. Jednou z výhod DisplayPortu je
+                        jeho schopnost propojit více monitorů do jednoho konektoru, což je užitečné pro multitasking
+                        nebo herní systémy s více obrazovkami.</p>
+                </div>
+            </div>
+            <div class="card "
+                style="width: 20%; height: auto;font-size: 18px; background-color: #c27670; border-radius: 50px; border: 5px solid #92544e; border-bottom: 15px solid #92544e;">
+                <img src="displayport.png" class="card-img-top" alt="..." id="img1" style="transform: scale(1);">
+                <div class="card-body">
+                    <p class="card-text"
+                        style="background-color: #b16862; padding: 5px; border-radius: 10px; margin-top: -20px;">
+                        Obrázek konektoru<span style="font-size: 20px;">(Display port)</span></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="display: flex; flex-direction: row; gap: 30px; margin-top: 40px;">
+            <div class="card "
+                style="width: 20%; height: auto;font-size: 18px; background-color: #c27670; border-radius: 50px; border: 5px solid #92544e; border-bottom: 15px solid #92544e;">
+                <img src="hdmi.png" class="card-img-top" alt="..." id="img2"
+                    style="transform: scale(1);">
+                <div class="card-body">
+                    <p class="card-text"
+                        style="background-color: #b16862; padding: 5px; border-radius: 10px; margin-top: -20px;">
+                        Obrázek konektoru<span style="font-size: 20px;">(HDMI)</span></span>
+                    </p>
+                </div>
+            </div>
+            <div class="div1"
+                style="background-color: #233239; width: fit-content; padding: 20px; border-radius: 30px; border: 5px solid #182227; border-bottom: 15px solid #182227;">
+                <h1 id="nadpis3">VGA</h1>
+                <hr>
+                <div class="d-flex flex-row">
+                    <p style="width:80% ;">VGA (Video Graphics Array) bylo analogové rozhraní, které bylo v minulosti
+                        často používáno pro přenos obrazu mezi počítačem a monitorem. VGA bylo běžné ve starších
+                        počítačích a monitorech, ale postupně bylo nahrazeno modernějšími digitálními rozhraními. VGA
+                        kabely mají typicky modré konektory s 15 kolíky a nabízejí nižší kvalitu obrazu ve srovnání s
+                        digitálními rozhraními.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container" style="display: flex; flex-direction: row; gap: 30px; margin-top: 40px;">
+            <div class="div1"
+                style="background-color: #233239; width: fit-content; padding: 20px; border-radius: 30px; border: 5px solid #182227; border-bottom: 15px solid #182227;">
+                <h1 id="nadpis4">DVI</h1>
+                <hr>
+                <div class="d-flex flex-row">
+                    <p style="width:80% ;">DVI (Digital Visual Interface) je digitální a analogové rozhraní, které bylo
+                        vyvinuto pro přenos obrazu mezi počítačem a monitorem. Existují různé typy DVI konektorů, včetně
+                        DVI-D (digitální), DVI-A (analogový) a DVI-I (kombinace digitálního a analogového). DVI
+                        poskytuje vyšší kvalitu obrazu než VGA, ale postupně bylo nahrazeno modernějšími rozhraními,
+                        jako je HDMI a DisplayPort.</p>
+                </div>
+            </div>
+            <div class="card "
+                style="width: 20%; height: auto;font-size: 18px; background-color: #c27670; border-radius: 50px; border: 5px solid #92544e; border-bottom: 15px solid #92544e;">
+                <img src="VGA.png" class="card-img-top" alt="..." id="img1" style="transform: scale(1);">
+                <div class="card-body">
+                    <p class="card-text"
+                        style="background-color: #b16862; padding: 5px; border-radius: 10px; margin-top: -20px;">
+                        Obrázek konektoru<span style="font-size: 20px;">(VGA)</span></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <hr>
+        <p class="text-center text-white">Šimon Šoltés 1.Bi</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
